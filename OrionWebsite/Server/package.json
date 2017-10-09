@@ -1,9 +1,9 @@
 {
-  "name": "orion-website",
-  "version": "0.0.0",
-  "description": "OrionWebsite",
-  "main": "server.js",
   "author": {
     "name": "macky"
-  }
+  },
+  "description": "OrionWebsite",
+  "main": "index.html",
+  "name": "orion-website",
+  "version": "0.0.0"
 }
