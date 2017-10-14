@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(50, 50, 50);
+    border: 7%;
+}
+
+#header-title {
+    text-align: left;
+    font-family: 'Orbitron';
+    padding: 10px;
+    margin: 2%;
+}
+
+.navigation {
+    font-family: 'Orbitron';
+    font-size: 14px;
+    font: bolder;
+}
+
+.navbar {
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+    margin: 2%;
+    padding: 10px;
+}
+
+.submenu {
+    display: hidden;
+}
+
+.submenu:hover {
+    display: block;
+    list-style-type: none;
+    font-family: 'Orbitron';
+    font-size: 14px;
+    font: bold;
+    background-color: rgba(128,128,128,0.5);
+}
+
+.body-content {
+    background-color: rgba(200, 200, 200, 0.8);
+    margin: 15%;
+    padding: 12px;
+    align-content: center;
+}
+
+#introductory-paragraph {
+    text-align: center;
+    font-family: 'Orbitron';
+    font-size: 16px;
+    font: bold;
+}
+
+#middle-paragraph {
+    text-align: center;
+    font-family: 'Orbitron';
+    font-size: 12px;
+    font: bold;
+}
