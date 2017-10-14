@@ -16,27 +16,6 @@ body {
     font: bolder;
 }
 
-.navbar {
-    text-align: center;
-    display: inline;
-    list-style-type: none;
-    margin: 2%;
-    padding: 10px;
-}
-
-.submenu {
-    display: hidden;
-}
-
-.submenu:hover {
-    display: block;
-    list-style-type: none;
-    font-family: 'Orbitron';
-    font-size: 14px;
-    font: bold;
-    background-color: rgba(128,128,128,0.5);
-}
-
 .body-content {
     background-color: rgba(200, 200, 200, 0.8);
     margin: 15%;
@@ -56,4 +35,57 @@ body {
     font-family: 'Orbitron';
     font-size: 12px;
     font: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+    li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover, .submenu:hover .dropbtn {
+            background-color: red;
+        }
+
+    li.submenu {
+        display: inline-block;
+    }
+
+.submenu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .submenu-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .submenu-content a:hover {
+            background-color: #f1f1f1
+        }
+
+.submenu:hover .submenu-content {
+    display: block;
 }
