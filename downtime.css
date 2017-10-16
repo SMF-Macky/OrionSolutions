@@ -1,0 +1,17 @@
+.text {
+    font-family: 'Orbitron';
+    font-size: 40px;
+    font: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#timer {
+    color: #ff0000;
+    font-family: 'Orbitron';
+    font-size: 60px;
+    font: bolder;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
