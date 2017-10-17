@@ -5,13 +5,13 @@ body {
 
 #header-title {
     text-align: left;
-    font-family: 'Orbitron';
+    font-family: 'Raleway';
     padding: 10px;
     margin: 2%;
 }
 
 .navigation {
-    font-family: 'Orbitron';
+    font-family: 'Raleway';
     font-size: 14px;
     font: bolder;
 }
@@ -25,14 +25,14 @@ body {
 
 #introductory-paragraph {
     text-align: center;
-    font-family: 'Orbitron';
+    font-family: 'Raleway';
     font-size: 16px;
     font: bold;
 }
 
 #middle-paragraph {
     text-align: center;
-    font-family: 'Orbitron';
+    font-family: 'Raleway';
     font-size: 12px;
     font: bold;
 }
