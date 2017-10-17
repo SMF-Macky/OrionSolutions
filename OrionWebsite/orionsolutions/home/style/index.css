@@ -4,10 +4,11 @@ body {
 }
 
 #header-title {
-    text-align: left;
+    text-align: center !important;
     font-family: 'Raleway';
     padding: 10px;
     margin: 2%;
+    background-color: #808080 !important;
 }
 
 .navigation {
@@ -17,7 +18,7 @@ body {
 }
 
 .body-content {
-    background-color: rgba(200, 200, 200, 0.33);
+    background-color: rgba(200, 200, 200, 0.33) !important;
     margin: 15%;
     padding: 12px;
     align-content: center;
